@@ -30,21 +30,15 @@
     </div>
 </nav>
 
-<div class="container" ng-controller="TaskItemController">
-    <div class="col-xs-12">
-        <ul class="list-group">
-            <li ng-repeat="item in taskItems" class="list-group-item text-center clearfix">
-                <span style="font-weight: bold">{{item.itemName}}</span>
-            </li>
-        </ul>
-    </div>
-</div>
+<div class="container" ng-view>
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="lib/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="lib/bootstrap.min.js"></script>
 <script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
