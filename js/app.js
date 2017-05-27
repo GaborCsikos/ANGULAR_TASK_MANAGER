@@ -10,7 +10,7 @@ app.config(function($routeProvider){
             templateUrl: "views/addItem.html",
             controller: "TaskItemController"
         })
-         .when("/addItem/:id/",{
+         .when("/addItem/edit/:id/",{
             templateUrl: "views/addItem.html",
             controller: "TaskItemController"
         })
